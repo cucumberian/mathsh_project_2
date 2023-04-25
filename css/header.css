@@ -1,0 +1,67 @@
+header {
+    width: 100%;
+}
+
+
+header > div {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+header > div > a {
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+header > nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    height: 85px;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+
+    /* border-top: 1px solid hsla(101, 55%, 42%, 0.5); */
+}
+
+header > nav > a {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+header .header__social_icons {
+    display: flex;
+    gap: 26px;
+
+    margin:0 66px 0 58px;
+    cursor: pointer;
+}
+
+header .lang_container {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    cursor: pointer;
+}
+
+header > hr {
+    width: 100vw;
+    color:  hsla(101, 55%, 42%, 0.5);
+}

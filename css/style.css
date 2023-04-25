@@ -1,0 +1,70 @@
+@font-face {
+    font-family: Montserrat;
+    src: url('../font/Montserrat-VariableFont_wght.ttf');
+}
+
+body {
+    font-family: Montserrat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #424242;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}   
+
+a {
+    text-decoration: none;
+    color: #424242;
+}
+
+a:hover {
+    color: #55A630;
+}
+
+a:active {
+    color: #55A630;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.dot_navigation {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 75px;
+}
+
+.dot_navigation > div.dot {
+    background: url('../img/dot_navigation-dot.svg') no-repeat;
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+}
+
+button {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: white;
+}
