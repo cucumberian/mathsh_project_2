@@ -21,6 +21,8 @@
     /* float: right; */
     /* top: -363px; */
     z-index: 0;
+    width: 100%;
+    min-width: 0px;
 }
 
 .speciality .content_container {

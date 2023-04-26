@@ -1,13 +1,11 @@
 .features {
-
     max-width: 1200px;
     width: 100%;
     padding: 0 20px;
     margin: 0 auto;
-
 }
 .features .features_shadowbox {
-    height: 212px;
+    min-height: 212px;
     width: 100%;
     margin: 0 auto;
 

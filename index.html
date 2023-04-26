@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Курсы косметологии">
+    <meta name="keywords" content="косметология, эстетика, медицина, курсы, вебинары, обучение, красота">
+    
     <title>Учебный центр косметологии - ValMari</title>
 
     <link rel="stylesheet" href="./css/style.css">
@@ -12,6 +15,10 @@
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/features.css">
     <link rel="stylesheet" href="./css/courses.css">
+    <link rel="stylesheet" href="./css/about_us.css">
+    <link rel="stylesheet" href="./css/learning_blocks.css">
+    <link rel="stylesheet" href="./css/models.css">
+    <link rel="stylesheet" href="./css/master_classes.css">
 </head>
 
 <body>
@@ -183,47 +190,68 @@
             </div>
         </section>
 
-        <section>
-            <img alt="" title="work process">
-            <h2>О нас</h2>
-            <p>
-                VALMARIВЕДУЩИЙ УЧЕБНЫЙ ЦЕНТР ЭСТЕТИЧЕСКОЙ КОСМЕТОЛОГИИ 
-            </p>
-            <p>
-                Описание может быть любое.
-                Ведущий учебный центр эстетической косметологии. 
-                Более 5 лет мы проводим курсы сертифицированные курсы профессионального образования в области косметологии и индустрии красоты, здоровья и молодости
-            </p>
-            <div>
-                <p>Подробнее</p>
-                <img alt="rightarrow" title="right arrow">
+        <section class="about_us">
+            <img src="./img/about_us/cosmetology_process.jpg" alt="косметология" title="рабочий процесс косметолога">
+            <div class="about_is__text_content">
+                <h2>О нас</h2>
+                <h3>
+                VALMARI <strong>ВЕДУЩИЙ УЧЕБНЫЙ ЦЕНТР ЭСТЕТИЧЕСКОЙ КОСМЕТОЛОГИИ</strong>
+                </h3>
+                <p>
+                    <span>Описание может быть любое.</span>
+                    <span>Ведущий учебный центр эстетической косметологии. </span>
+                    <span>
+                        Более 5 лет мы проводим курсы 
+                        сертифицированные курсы 
+                        профессионального образования 
+                        в области косметологии 
+                        <br>
+                        и индустрии красоты, здоровья 
+                        <br>
+                        и молодости
+                    </span>
+                </p>
+                <div>
+                    <p>Подробнее</p>
+                    <img src="./img/about_us/long_right_arrow.svg" alt="rightarrow" title="right arrow">
+                </div>
             </div>
         </section>
 
         <section class="learning_blocks">
             <h2>Обучение косметологов</h2>
             <div>
-                <a href="#">
+                <a href="#" class="learning_block el1">
                     <div>
-                        <p>курсы косметологии</p>
+                        <p>курсы <br>косметологии</p>
+                        <img src="./img/learning_blocks/long_white_right_arrow.svg" alt="right_arrow" title="перейти">
+                        <ul>
+                            <li>эстетическая косметология</li>
+                            <li>инъекционная косметология</li>
+                            <li>лазерная косметология</li>
+                        </ul>
                     </div>
                 </a>
-                <a>
+
+                <a href="#" class="learning_block el2">
                     <div>
                         <p>Онлайн обучение</p>
                     </div>
                 </a>
-                <a>
+
+                <a href="#" class="learning_block el3">
                     <div>
                         <p>мастер-классы</p>
                     </div>
                 </a>
-                <a>
+
+                <a href="#" class="learning_block el4">
                     <div>
                         <p>расписание</p>
                     </div>
                 </a>
-                <a>
+
+                <a gref="#" class="learning_block el5">
                     <div>
                         <p>Акции</p>
                     </div>
@@ -234,42 +262,49 @@
         <section class="models">
             <div>
                 <h2>ВЕДЕМ НАБОР МОДЕЛЕЙ</h2>
-                <p>Мы предлагаем свои услуги для моделей. 
-
-                    Выберите процедуру или несколько процедур и наш менеджер проконсультирует васи назовет ближайшую дату, когда вы сможете получить эту процедуру.
+                <p>Мы предлагаем свои услуги для моделей.</p>
+                <p>
+                    <span>Выберите процедуру или несколько процедур </span>
+                    <span>и наш менеджер проконсультирует вас </span>
+                    <span>и назовет ближайшую дату, когда вы сможете</span> 
+                    <span>получить эту процедуру.</span>
                 </p>
-                <button>Стать моделью</button>
+                <button class="background_color2">Стать моделью</button>
             </div>
-            <img alt="model" title="model">
+            <img src="./img/models/model.jpg" alt="model" title="model">
         </section>
 
         <section class="master_classes">
             <h2>Мастер-классы</h2>
             <p>Мероприятия для повышения квалификации косметологов</p>
-            <div>
-                <div>
-                    <img alt="master class image" title="фото с мастер класса">
+            <div class="master_classes__container">
+                <div class="master_class">
+                    <img src="./img/master_classes/master_class1.jpg" alt="master class image" title="фото с мастер класса">
                     <div>
-                        <div>
+                        <div class="master_class__description">
                             <p>3 ноября, 10:00-12:00</p>
                             <p>10 возможностей неодимового лазера. Лазерный пилинг, удаление тату/татуажа</p>
                             <p>Тренер: Юлия Щукина</p>
                         </div>
                         <div><p>2000 грн</p></div>
-                        <button><img alt="right arrow" title="перейти"> -></button>
+                        <button class="background_color2">
+                            <img src="./img/master_classes/arrow_right.svg" alt="right arrow" title="перейти">
+                        </button>
                     </div>
                 </div>
 
-                <div>
-                    <img alt="master class image" title="фото с мастер класса">
+                <div class="master_class">
+                    <img src="./img/master_classes/master_class2.jpg" alt="master class image" title="фото с мастер класса">
                     <div>
-                        <div>
+                        <div class="master_class__description">
                             <p>20 ноября, 12:00-17:00</p>
                             <p>Профессия косметолог. Семинар для новичкови профессионалов</p>
                             <p>Спикеры: Марина Спивак, Алина Ядчишина, Елена Белогурова, Юлия Щукина</p>
                         </div>
                         <div><p>Бесплатно</p></div>
-                        <button><img alt="right arrow" title="перейти"> -></button>
+                        <button class="background_color2">
+                            <img src="./img/master_classes/arrow_right.svg" alt="right arrow" title="перейти">
+                        </button>
                     </div>
                 </div>
             </div>

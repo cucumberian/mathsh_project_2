@@ -1,0 +1,35 @@
+.master_classes {
+    margin-top: 177px;
+}
+
+.master_class button {border: none;}
+
+.master_classes > p {
+    margin-top: 30px;
+    margin-bottom: 75px;
+
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.master_classes > .master_classes__container {
+    display: flex;
+    gap: 153px;
+}
+
+.master_classes .master_class {
+    max-width: 520px;
+    box-shadow: 0 2px 20px 0 hsla(0, 0%, 26%, 0.15);
+}
+
+.master_classes .master_class > div{
+    display: grid;
+    grid-template-rows: 132px 72px;
+    grid-template-columns: auto 153px;
+}
+.master_class__description {
+    grid-row: span 2;
+}
