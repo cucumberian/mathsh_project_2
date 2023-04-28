@@ -1,0 +1,126 @@
+footer {
+    margin-top: 175px;
+    height: 774px;
+    max-width: 1440px;
+    width: 100vw;
+
+    display: grid;
+    align-items: end;
+    grid-template-columns: 756px auto;
+    grid-template-areas:
+    "map content"
+    "map content"
+    "map policy";
+
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: 0px;
+    text-align: left;
+
+    background-color: #424242;
+    color: white;
+
+}
+
+footer button {
+    cursor: pointer;
+}
+
+footer > img {
+    grid-area: map;
+}
+
+.footer_content {
+    align-self: start;
+    grid-area: content;
+    margin-left: 69px;
+    
+}
+
+.footer_content > img {
+    margin-top: 37px;
+    margin-bottom: 50px;
+}
+.footer_content > address{
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+}
+.footer_content > address > a, a:hover {
+    color: white;
+
+    font-style: normal;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0px;
+}
+/* .footer_content > address > a:hover {
+    color: white;
+} */
+.footer_content > address > p {
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    font-style: normal;
+
+}
+
+.footer_nav {
+    margin-top: 84px;
+    margin-bottom: 85px;
+
+    display: grid;
+    grid-template-columns: 200px 150px;
+    gap: 25px 47px;
+    grid-template-rows: auto;
+    grid-auto-flow: row;
+    text-align: left;
+    align-items: start;
+}
+
+.footer_nav > button {
+    width: max-content;
+    background: none;
+    border: none;
+    
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0px;
+    text-align: left;
+    
+
+    color: hsla(0, 0%, 100%, 0.8);
+}
+
+
+.footer_social_icons {
+    display: flex;
+    gap: 32px;
+}
+
+.footer_policy {
+    height: 113px;
+    grid-area: policy;
+    margin-left: 69px;
+    align-self: end;
+
+    display: flex;
+    align-items: center;
+}
+
+.footer_policy > button {
+    background: none;
+    border: none;
+    color: hsla(0, 0%, 100%, 0.8);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+}
