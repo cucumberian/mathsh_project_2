@@ -1,0 +1,9 @@
+.special_offers {
+    margin-top: 166px;
+}
+
+.special_offers > div {
+    margin-top: 75px;
+    display: flex;
+    gap: 30px;
+}

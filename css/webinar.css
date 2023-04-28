@@ -1,0 +1,103 @@
+.webinar {
+    background-color: #ECFFEB;
+    min-height: 584px;
+    width: 100vw;
+}
+
+.webinar > div {
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 10px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.webinar > div > img {
+    margin-top: 28px;
+    /* position: relative; */
+    right: -38px;
+    /* float: right; */
+    /* top: -363px; */
+    z-index: 0;
+    width: 100%;
+    min-width: 0px;
+}
+
+.webinar .content_container {
+    margin-top: 71px;
+}
+
+.webinar .content_container > strong {
+    display: block;
+    margin-left: 4px;
+
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0px;
+
+}
+
+.webinar h1 {
+    font-family: Montserrat;
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 65px;
+    letter-spacing: 0px;
+    text-align: left;
+
+    color: #55A630;
+    width: 496px;
+}
+
+.webinar .content_container > p {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0px;
+
+    width: 419px;
+    margin: 20px 0 57px 0;
+}
+
+.webinar .content_container > div {
+    display: flex;
+    gap: 20px;
+}
+
+.webinar button {
+    height: 66px;
+    width: 285px;
+
+    display: float;
+    align-items: center;
+    /* justify-content: center; */
+
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: center;
+
+    border: none;
+    background: transparent;
+
+    cursor: pointer;
+
+    z-index: 2;
+}
+
+.webinar .register_button {
+    background-color: #55A630;
+    color: white;
+}
+
+.webinar .info_button {
+    border: solid 1px #55A630;
+    color: #55A630;
+}
