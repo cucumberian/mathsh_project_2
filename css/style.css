@@ -3,6 +3,11 @@
     src: url('../font/Montserrat-VariableFont_wght.ttf');
 }
 
+@font-face {
+    font-family: Raleway;
+    src: url('../font/Raleway-VariableFont_wght.ttf');
+}
+
 body {
     font-family: Montserrat;
     display: flex;

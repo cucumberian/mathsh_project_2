@@ -1,7 +1,8 @@
 .models {
     display: flex;
     justify-content: space-between;
-    gap: 74px; 
+    align-items: flex-start;
+    /* gap: 74px;  */
 
     max-width: 1200px;
     width: 100%;
@@ -50,5 +51,9 @@
 
 }
 
-
+.models > img {
+    object-fit: contain;
+    max-width: 498px;
+    width: 100%;
+}
 
