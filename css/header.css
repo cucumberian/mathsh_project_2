@@ -1,5 +1,6 @@
 header {
     width: 100%;
+    max-width: 1440px;
 }
 
 
@@ -81,7 +82,7 @@ header .lang_container {
 }
 
 header > hr {
-    width: 100vw;
+    width: 100%;
     border: 2px solid hsla(101, 55%, 42%, 0.5);
     color:  hsla(101, 55%, 42%, 0.5);
 }

@@ -14,7 +14,7 @@
     border-radius: 4px;
 
     position: relative;
-    top: -20px;
+    top: -24px;
 
     display: grid;
     grid-template-columns: repeat(4, 1fr);
