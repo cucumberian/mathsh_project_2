@@ -47,7 +47,7 @@ footer > img {
     gap: 25px;
     flex-direction: column;
 }
-.footer_content > address > a, a:hover {
+.footer_content > address > a, .footer_content > address > a:hover {
     color: white;
 
     font-style: normal;
