@@ -1,9 +1,12 @@
 .features {
+    position: absolute;
+    top: 765px;
     max-width: 1200px;
     width: 100%;
-    padding: 0 20px;
     margin: 0 auto;
+    z-index: 1;
 }
+
 .features .features_shadowbox {
     min-height: 212px;
     width: 100%;
@@ -19,6 +22,7 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     justify-items: center;
+    gap: 40px;
 }
 
 .features_shadowbox > div {
@@ -46,6 +50,4 @@
     line-height: 28px;
     letter-spacing: 0px;
     text-align: center;
-
-
 }
