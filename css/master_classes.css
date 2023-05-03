@@ -1,5 +1,7 @@
 .master_classes {
     margin-top: 177px;
+    width: 100vw;
+    max-width: 1200px;
 }
 
 .master_class button {border: none;}
@@ -15,21 +17,69 @@
     text-align: center;
 }
 
-.master_classes > .master_classes__container {
+.master_classes_container {
     display: flex;
-    gap: 153px;
+    justify-content: space-between;
 }
 
-.master_classes .master_class {
+.master_class {
     max-width: 520px;
     box-shadow: 0 2px 20px 0 hsla(0, 0%, 26%, 0.15);
+    display: flex;
+    flex-direction: column;
 }
 
-.master_classes .master_class > div{
+.master_class > div {
     display: grid;
-    grid-template-rows: 132px 72px;
+    grid-template-rows: 132px 98px;
     grid-template-columns: auto 153px;
 }
-.master_class__description {
+.master_class_description {
     grid-row: span 2;
+
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    margin-left: 29px;
+}
+
+.master_class_datetime {
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0px;
+
+    color: hsla(0, 0%, 26%, 0.8);
+
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.master_class_speakers {
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: left;
+
+    margin-top: 21px;
+    max-width: 272px;
+}
+
+.master_class_cost {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+
+    color: hsla(0, 0%, 26%, 0.8);
+    background-color: #ECF9EB;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
