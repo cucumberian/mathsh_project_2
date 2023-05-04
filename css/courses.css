@@ -17,6 +17,7 @@
 .courses .background > img {
     width: 1065px;
     height: 790px;
+    /* object-fit: scale-down; */
     z-index: -1;
 }
 
@@ -24,7 +25,7 @@
     margin-bottom: 77px;
 }
 
-.courses .courses_container {
+.courses_container {
     max-width: 1200px;
     width: 100vw;
     
@@ -52,7 +53,7 @@
     padding: 10px 10px 0 10px;
 }
 
-.courses .course .course_header {
+.course_header {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -90,8 +91,12 @@
     text-align: center;
 }
 
-.courses .course_status > span {
+.course_status > span {
     width: 100%;
+}
+
+p.color3 {
+    color: #1D8195;
 }
 
 .course_info_container {
@@ -120,9 +125,9 @@
     color: hsla(0, 0%, 26%, 0.8);
 }
 
-.course_info > div {
-    border-left: 2px solid;
-}
+/* .course_info > div {
+    border-left: 0px solid;
+} */
 .course_info > div > p {
     padding: 5px ;
     max-width: 180px;
@@ -146,6 +151,7 @@
     line-height: 20px;
     letter-spacing: 0px;
     text-align: left;
+    color: hsla(0, 0%, 26%, 0.8);
 }
 
 .course > .action_buttons {
@@ -173,3 +179,84 @@
 .background_color3 {background-color: #00A896;}
 .transparent_background_color3 {background-color: hsla(174, 100%, 33%, 0.1);}
 .color3 {color: #00A896;}
+
+@media screen and (max-width: 1240px) {
+    .courses .background {
+        opacity: 0.8;
+    }
+    .courses .background > img {
+        width: 100%;
+        object-fit: contain;
+        /* height: 585px; */
+
+    }
+
+    .courses_container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .courses .course {
+        width: 300px;
+        height: 509px;
+    }
+    .courses .course > div:first-child {
+    padding: 10px 10px 0 10px;
+}
+
+    .course_header {
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 22px;
+        letter-spacing: 0px;
+    }
+    .course_header > img {
+        width: 36px;
+    }
+    .course_title {
+        margin-top: 6px;
+        margin-bottom: 25px;
+        font-size: 25px;
+        line-height: 25px;
+        letter-spacing: -0.4px;
+    }
+    .course_status {
+        min-width: 141px;
+        max-width: 145px;
+        height: 34px;
+
+        color: hsla(0, 0%, 100%, 0.8);
+        border-radius: 9px;
+
+        display: flex;
+        align-items: center;
+        justify-self: center;
+        text-align: center;
+    }
+
+    .course_status > span {
+        width: 100%;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 20px;
+
+    }
+    .course_info_container > img {
+        object-fit: contain;
+        position: relative;
+        bottom: -40px;
+        width: 110px;
+        height: 140px;
+    }
+    .course_date {
+        margin-top: 19px;
+        margin-bottom: 41px;
+        color: hsla(0, 0%, 26%, 0.8);
+    }
+    .course_spaces {
+        margin-top: 33px;
+        margin-bottom: 12px;
+        font-size: 15px;
+        line-height: 20px;
+    }
+}
