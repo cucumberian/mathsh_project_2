@@ -70,7 +70,7 @@ p.models_text_v2 {
 
 @media screen and (max-width: 1240px) {
     .models {
-        max-width: 1000px;
+        max-width: calc(1000px - 40px);
     }
     .models h2 {
         font-size: 24px;

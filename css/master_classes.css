@@ -25,10 +25,12 @@
 .master_class {
     max-width: 520px;
     box-shadow: 0 2px 20px 0 hsla(0, 0%, 26%, 0.15);
+
+}
+.master_class > picture {
     display: flex;
     flex-direction: column;
 }
-
 .master_class > div {
     display: grid;
     grid-template-rows: 132px 98px;
@@ -82,4 +84,26 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media screen and (max-width: 1240px) {
+    .master_classes {
+        margin-top: 140px;
+        max-width: calc(1000px - 40px);
+    }
+    .master_classes > h2 {
+        font-size: 30px;
+    }
+    .master_classes > p {
+        margin-top: 40px;
+        margin-bottom: 50px;  
+        font-size: 20px;
+    }
+    .master_class {
+        max-width: 464px;
+    }
+    .master_class > div {
+        grid-template-columns: auto 136px;
+    }
+
 }

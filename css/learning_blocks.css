@@ -130,7 +130,7 @@ a.learning_block:hover {
 
 @media screen and (max-width: 1240px) {
     .learning_blocks {
-        max-width: 1000px;
+        max-width: calc(1000px - 40px);
         margin-top: 150px;
     }
     .learning_blocks > h2 {
