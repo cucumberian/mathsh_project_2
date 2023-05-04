@@ -13,7 +13,7 @@
     font-size: 40px;
     font-weight: 700;
     line-height: 46px;
-    letter-spacing: -0.4000000059604645px;
+    letter-spacing: -0.4px;
     text-align: left;
 
     margin-bottom: 75px;
@@ -22,7 +22,7 @@
 }
 
 .models p {
-    color: #424242;
+    color: hsla(0, 0%, 26%, 0.8);
 
     margin-bottom: 1em;
 
@@ -33,6 +33,12 @@
 
     display: flex;
     flex-direction: column;
+}
+p.models_text_v1 {
+    display: none;
+}
+p.models_text_v2 {
+    display: none;
 }
 
 .models button {
@@ -54,4 +60,34 @@
     object-fit: contain;
     max-width: 498px;
     width: 100%;
+}
+
+@media screen and (min-width: 1240px) {
+    p.models_text_v1 {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 1240px) {
+    .models {
+        max-width: 1000px;
+    }
+    .models h2 {
+        font-size: 24px;
+        line-height: 28px;
+        margin-bottom: 40px;
+    }
+    .models p {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    p.models_text_v2 {
+        display: flex;
+    }
+    .models button {
+        margin-top: 47px;
+        max-width: 298px;
+        height: 55px; 
+        font-size: 20px;
+    }
 }
