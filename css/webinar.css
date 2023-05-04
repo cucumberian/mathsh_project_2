@@ -21,7 +21,7 @@
     position: relative;
     z-index: -1;
     right: -54px;
-    bottom: 429px;
+    bottom: 439px;
     background-image: url('../img/webinar/specialists.png');
     background-repeat: no-repeat;
     background-position: 100% 0%;
@@ -115,6 +115,7 @@
 
 @media screen and (max-width: 1240px) {
     .webinar {
+        max-width: 1000px;
         height: 489px;
     }
     .webinar > div:first-child {
@@ -139,6 +140,7 @@
         gap: 26px;
     }
     .webinar_background_image {
+        max-width: 1000px;
         background-size: 527px;
         bottom: 337px;
         right: -8px;

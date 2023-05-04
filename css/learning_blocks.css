@@ -36,6 +36,7 @@ a.learning_block:hover {
 }
 
 .learning_block  .arrow {
+    display: none;
     float: right;
     position: relative;
     bottom: 15px;
@@ -48,6 +49,7 @@ a.learning_block:hover {
 }
 
 .learning_block ul {
+    display: none;
     margin-top: 61px;
     margin-left: 20px;
     list-style-type: '-  ';
@@ -105,7 +107,51 @@ a.learning_block:hover {
 }
 
 .el1 .cursor {
+    display: none;
     position: relative;
     left: 378px;
     bottom: 40px;
+}
+
+@media screen and (min-width: 1240px) {
+    .learning_block .arrow {
+        display: block;
+    }
+    .learning_block ul {
+        display: block;
+    }
+    .el1 p {
+        max-width: 327px;
+    }
+    .el1 .cursor {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 1240px) {
+    .learning_blocks {
+        max-width: 1000px;
+        margin-top: 150px;
+    }
+    .learning_blocks > h2 {
+        margin-bottom: 55px;
+    }
+    .learning_blocks > div {
+        gap: 28px 28px;
+        grid-template-rows: 207px 207px;
+    }   
+    .learning_block p {
+        padding-top: 157px;
+        margin-left: 20px;
+        font-size: 25px;
+        line-height: 38px;
+    }
+    .el4 > div > p {
+        padding-top: 17px;
+        margin-left: 0;
+        text-align: center;
+    }
+    .el5 p {
+        margin-left: 45px;
+    }
 }
