@@ -1,22 +1,20 @@
 .webinar {
     margin-top: 0;
     background-color: #ECFFEB;
-    min-height: 584px;
+    height: 584px;
     width: 100vw;
     max-width: 1440px;
     z-index: 0;
 }
 
-.webinar > div {
-    width: 100%;
-    height: 100vw;
+.webinar > div:first-child {
+    width: 100vw;
+    height: 100%;
     max-width: 1200px;
-    max-height: 584px;
     margin: 0 auto;
-
 }
 
-.webinar > div > .background_image {
+.webinar_background_image {
     width: 100%;
     height: 100%;
     overflow: visible;
@@ -27,7 +25,19 @@
     background-image: url('../img/webinar/specialists.png');
     background-repeat: no-repeat;
     background-position: 100% 0%;
+    background-size: contain;
 }
+/* .webinar_background_image {
+    overflow: visible;
+    height: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    height: 556px;
+    position: relative;
+    bottom: 556px;
+    right: 95px;
+} */
 
 .webinar > div > strong {
     padding-top: 71px;
@@ -65,7 +75,7 @@
     margin: 20px 0 57px 0;
 }
 
-.webinar > div > div {
+.webinar_button_container {
     display: flex;
     gap: 20px;
 }
@@ -101,4 +111,40 @@
 .webinar .info_button {
     border: solid 1px #55A630;
     color: #55A630;
+}
+
+@media screen and (max-width: 1240px) {
+    .webinar {
+        height: 489px;
+    }
+    .webinar > div:first-child {
+        margin-top: 75px;
+    }
+    .webinar > div > strong {
+        display: none;
+    }
+    .webinar h1 {
+        margin-left: 15px;
+        margin-bottom: 24px;
+    }
+
+    .webinar > div > p {
+        margin-left: 22px;
+        margin-bottom: 44px;
+        line-height: 22px;
+    }
+
+    .webinar_button_container {
+        margin-left: 22px;
+        gap: 26px;
+    }
+    .webinar_background_image {
+        background-size: 527px;
+        bottom: 337px;
+        right: -8px;
+    }
+    .webinar button {
+        width: 247px;
+        height: 55px;
+    }
 }
