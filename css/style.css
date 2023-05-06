@@ -63,11 +63,15 @@ h2 {
     margin-top: 75px;
 }
 
-.dot_navigation > div.dot {
-    background: url('../img/dot_navigation-dot.svg') no-repeat;
+.dot_navigation > .dot {
     cursor: pointer;
     width: 15px;
     height: 15px;
+    border-radius: 7.5px;
+    background-color: #B7ECB1;
+}
+.dot_navigation > .dot.active {
+    background-color: #55A630;
 }
 
 button {
