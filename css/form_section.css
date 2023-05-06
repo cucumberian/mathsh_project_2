@@ -25,9 +25,9 @@
     letter-spacing: 0em;
     text-align: center;
 
+    margin: 0 auto;
     margin-bottom: 60px;
 }
-
 
 form {
     display: flex;
@@ -76,4 +76,20 @@ form > button {
     height: 71px;
 
     cursor: pointer;
+}
+
+@media screen and (max-width: 1240px) {
+    .form_section {
+        max-width: calc(1000px - 40px);
+    }
+    .form_section > h2 {
+        margin-top: 65px;
+        margin-bottom: 25px;
+    }
+    .form_section > p {
+        max-width: 463px;
+        margin-bottom: 40px;
+        font-size: 20px;
+        line-height: 26px;
+    }
 }
