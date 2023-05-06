@@ -2,8 +2,36 @@
     margin-top: 166px;
 }
 
-.special_offers > div {
-    margin-top: 75px;
+.special_offers > h2 {
+    margin-bottom: 75px;
+}
+
+.special_offers_container {
     display: flex;
     gap: 30px;
+}
+
+.special_offers a {
+    width: 380px;
+    height: 380px;
+}
+
+.special_offers img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+@media screen and (max-width: 1230px) {
+    .special_offers > h2 {
+        font-size: 30px;
+        margin-bottom: 50px;
+    }
+    .special_offers a {
+        width: 303px;
+        height: 303px;
+    }
+    .dot_navigation {
+        margin-top: 50px;
+    }
 }
