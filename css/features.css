@@ -61,6 +61,7 @@
         max-width: calc(854px + 40px);
     }
     .features_shadowbox {
+        box-shadow: -2px 2px 5px 0px hsl(0, 0%, 26%, 0.15);
         height: 167px;
         padding-left: 30px;
         padding-right: 30px;
@@ -69,18 +70,35 @@
     }
     .features_shadowbox > div > p:first-child {
         font-size: 40px;
-        font-weight: 700;
         line-height: 45px;
-        letter-spacing: 0px;
-        text-align: center;
         margin-bottom: 13px;
     }
     
     .features_shadowbox > div > p:last-child {
         font-size: 20px;
-        font-weight: 400;
         line-height: 21px;
-        letter-spacing: 0px;
-        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .features {
+        max-width: calc(768px - 120px);
+    }
+    .features_shadowbox {
+        height: 98px;
+        width: 100%;
+        padding: 0;
+        gap: 12px;
+        top: 30px;
+    }
+    .features_shadowbox > div > p:first-child {
+        font-size: 25px;
+        line-height: 40px;
+        margin: 0;
+        margin-top: -5px;
+    }
+    .features_shadowbox > div > p:last-child {
+        font-size: 13px;
+        line-height: 15px;
     }
 }
