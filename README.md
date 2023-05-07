@@ -30,4 +30,5 @@ GitHub Pages: https://cucumberian.github.io/mathsh_project_2/
 
 - картинки в секции learning_blocks на меньших экранах другие
 - нету фона в между секциями learning_blocks и models
-- 
+- сделать элемент меню и навигационное меню адаптивным
+- сделать реакцию кнопок и иконок соц сетей
