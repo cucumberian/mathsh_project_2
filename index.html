@@ -27,13 +27,20 @@
 <body>
     <header>
         <div>
+            <button class="hamburger_menu_button">
+                <img src="./img/header/hamburger.svg" alt="кнопка меню" title="меню">
+            </button>
+
             <div class="valmari_icon_container">
                 <a class="valmari_icon" href="#" title="home">
-                    <img src="./img/header/header_logo.svg" alt="логотип" title="Учебный центр ValMari">
+                    <picture>
+                        <source srcset="./img/header/header_logo_1000.svg" media="(max-width: 1240px)">
+                        <img src="./img/header/header_logo.svg" alt="логотип" title="Учебный центр ValMari">
+                    </picture>
                 </a>
             </div>
 
-            <a  class="phone" href="tel:+0800508622">
+            <a  class="header_phone" href="tel:+0800508622">
                 <img src="./img/header/phone_icon.svg" alt="phone icon" title="телефон">
                 <span>0 (800) 508-622</span>
             </a>
@@ -51,17 +58,19 @@
 
         <hr>
 
-        <nav>
-            <a href="#">Курсы обучения</a>
-            <a href="#">Вебинары</a>
-            <a href="#">Видео-уроки</a>
-            <a href="#">Блог</a>
-            <a href="#">О нас</a>
-            <a href="#">Прайс</a>
-            <a href="#">Расписание</a>
-            <a href="#">Акции</a>
-            <a href="#">Магазин</a>
-        </nav>
+        <div class="hamburger_menu">
+            <nav>
+                <a href="#">Курсы обучения</a>
+                <a href="#">Вебинары</a>
+                <a href="#">Видео-уроки</a>
+                <a href="#">Блог</a>
+                <a href="#">О нас</a>
+                <a href="#">Прайс</a>
+                <a href="#">Расписание</a>
+                <a href="#">Акции</a>
+                <a href="#">Магазин</a>
+            </nav>
+        </div>
     </header>
     
     <main>
