@@ -83,6 +83,7 @@
 @media screen and (max-width: 1000px) {
     .features {
         max-width: calc(768px - 120px);
+        padding: 0;
     }
     .features_shadowbox {
         height: 98px;

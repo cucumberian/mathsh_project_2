@@ -89,4 +89,19 @@ button {
     main > section  {
         margin-top: 100px;
     }
+    .dot_navigation {
+        gap: 8px;
+        margin-top: 30px;
+    }
+    .dot_navigation > .dot {
+        cursor: pointer;
+        width: 7.5px;
+        height: 7.5px;
+    }
+    .courses > h2 > span:first-child {
+        display: none;
+    }
+    .courses > h2 > span:last-child {
+        display: inline;
+    }
 }
