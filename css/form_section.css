@@ -93,3 +93,80 @@ form > button {
         line-height: 26px;
     }
 }
+
+/* 768px */
+@media screen and (max-width: 999px) {
+    .form_section {
+        max-width: calc(768px - 120px);
+        height: 359px;
+    }
+    .form_section > h2 {
+        margin-top: 30px;
+        margin-bottom: 12px;
+        font-size: 25px;
+    }
+    .form_section > p {
+        max-width: 350px;
+        margin-bottom: 31px;
+        font-size: 15px;
+        line-height: 22px;
+    }
+    form {
+        max-width: 311px;
+    }
+    form > input {
+        width: 100%;
+        height: 45px;
+        padding-left: 25px;        
+    }
+    form > button {
+        font-size: 14px;
+        line-height: 16px;
+        margin-top: 23px;
+        height: 53px;
+    }
+}
+
+/* 480px */
+@media screen and (max-width: 645px) {
+    .form_section {
+        max-width: 360px;
+    }
+    .form_section > h2 {
+        margin-top: 32px;
+        margin-bottom: 15px;
+        font-size: 20px;
+        line-height: 17px;
+    }
+    .form_section > p {
+        max-width: 280px;
+        margin-bottom: 41px;
+        font-size: 15px;
+        line-height: 20px;
+    }
+    form {
+        max-width: 297px;
+    }
+}
+
+/* 320px */
+@media screen and (max-width: 359px) {
+    .form_section {
+        max-width: 300px;
+    }
+    .form_section > h2 {
+        max-width: 196px;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .form_section > p {
+        max-width: 275px;
+        margin-bottom: 36px;
+    }
+    form {
+        max-width: 286px;
+    }
+}
