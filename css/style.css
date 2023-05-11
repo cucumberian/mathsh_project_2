@@ -98,10 +98,4 @@ button {
         width: 7.5px;
         height: 7.5px;
     }
-    .courses > h2 > span:first-child {
-        display: none;
-    }
-    .courses > h2 > span:last-child {
-        display: inline;
-    }
 }
