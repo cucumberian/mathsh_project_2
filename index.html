@@ -27,7 +27,7 @@
 </head>
 
 <body>
-    <!-- <header>
+    <header>
         <div>
             <button class="hamburger_menu_button">
                 <img src="./img/header/hamburger.svg" alt="кнопка меню" title="меню">
@@ -74,9 +74,9 @@
             </nav>
         </div>
     </header>
-     -->
+    
     <main>
-        <!-- <section class="webinar">
+        <section class="webinar">
             <div>
                 <strong>Бесплатный вебинар</strong>
                 <h1>ПРОФЕССИЯ КОСМЕТОЛОГ</h1>
@@ -276,42 +276,47 @@
                 <div class="dot"></div>
                 <div class="dot"></div>
             </div>
-        </section> -->
+        </section>
 
         <section id="about_us" class="about_us">
             <picture>
+                <source srcset="./img/about_us/cosmetology_process_320.jpg" media="(max-width: 359px)">
+                <source srcset="./img/about_us/cosmetology_process_480.jpg" media="(max-width: 645px)">
                 <source srcset="./img/about_us/cosmetology_process_768.jpg" media="(max-width: 1000px)">
                 <source srcset="./img/about_us/cosmetology_process_1000.jpg" media="(max-width: 1240px)">
                 <img src="./img/about_us/cosmetology_process.jpg" alt="косметология" title="рабочий процесс косметолога">
             </picture>
-            <div class="about_us__text_content">
-                <h2>О нас</h2>
-                <h3>
-                    VALMARI <strong>ВЕДУЩИЙ УЧЕБНЫЙ ЦЕНТР ЭСТЕТИЧЕСКОЙ КОСМЕТОЛОГИИ</strong>
-                </h3>
-                <p>
-                    <span>Описание может быть любое.</span>
-                    <span>Ведущий учебный центр эстетической косметологии. </span>
-                    <span>
-                        Более 5 лет мы проводим курсы 
-                        сертифицированные курсы 
-                        профессионального образования 
-                        в области косметологии 
-                        и индустрии красоты, здоровья 
-                        и молодости
-                    </span>
-                </p>
-                <div>
-                    <p>Подробнее</p>
-                    <picture>
-                        <source srcset="./img/about_us/long_right_arrow_768.svg" media="(max-width: 1000px)">
-                        <img src="./img/about_us/long_right_arrow.svg" alt="rightarrow" title="right arrow">
-                    </picture>
-                </div>
+            
+            <h2>О нас</h2>
+            
+            <h3>
+                <span>VALMARI</span> <strong>ВЕДУЩИЙ УЧЕБНЫЙ ЦЕНТР ЭСТЕТИЧЕСКОЙ КОСМЕТОЛОГИИ</strong>
+            </h3>
+            <p>
+                <span>Описание может быть любое.</span>
+                <span>Ведущий учебный центр эстетической косметологии. </span>
+                <span>
+                    Более 5 лет мы проводим курсы 
+                    сертифицированные курсы 
+                    профессионального образования 
+                    в области косметологии 
+                    и индустрии красоты, здоровья 
+                    и молодости
+                </span>
+            </p>
+
+            <div>
+                <p>Подробнее</p>
+                <p>Читать подробнее</p>
+                <picture>
+                    <source srcset="./img/about_us/long_right_arrow_768.svg" media="(max-width: 1000px)">
+                    <img src="./img/about_us/long_right_arrow.svg" alt="rightarrow" title="right arrow">
+                </picture>
             </div>
+        
         </section>
 
-        <!-- <section class="learning_blocks">
+        <section class="learning_blocks">
             <h2>Обучение косметологов</h2>
             <div>
                 <a href="#" class="learning_block el1">
@@ -584,6 +589,6 @@
         <div class="footer_policy">
             <button>Политика конфиденциальности</button>
         </div>
-    </footer> -->
+    </footer>
 </body>
 </html>

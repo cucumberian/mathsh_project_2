@@ -99,3 +99,17 @@ button {
         height: 7.5px;
     }
 }
+    @media screen and (max-width: 645px) {
+        main > section  {
+            margin-top: 80px;
+        }
+        .dot_navigation {
+            gap: 6px;
+            margin-top: 39px;
+        }
+        .dot_navigation > .dot {
+            cursor: pointer;
+            width: 5px;
+            height: 5px;
+        }
+}
