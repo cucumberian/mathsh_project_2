@@ -6,7 +6,7 @@ header {
 
 
 header > div:first-child {
-    width: 100vw;
+    width: 100%;
 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -50,8 +50,6 @@ header > div a {
     width: 0;
     height: 0;
     overflow: hidden;
-    
-    padding-left: 34px;
 
     background-color: hsla(101, 0%, 100%, 1.0);
     z-index: 10;
@@ -113,7 +111,6 @@ header > hr {
         max-width: 1200px;
         width: 100%;
         margin: 12px auto 10px auto;
-        padding: 0 10px;
 
         display: flex;
         justify-content: flex-end;
@@ -144,6 +141,8 @@ header > hr {
         position: relative;
         width: 100%;
         height: 69px;
+        display: flex;
+        align-items: center;
     }
     .hamburger_menu > nav {
         flex-direction: row;
@@ -153,8 +152,7 @@ header > hr {
         
         height: 100%;
         max-width: 1200px;
-        width: 100vw;
-        margin: 0 auto;
+        width: 100%;
     }
     .hamburger_menu > nav > a {
         font-size: 16px;
@@ -173,12 +171,6 @@ header > hr {
     }
     .header_phone > span {
         font-size: 20px;
-    }
-    .hamburger_menu_button {
-        margin-left: 20px;
-    }
-    .header_phone {
-        margin-right: 20px;
     }
 }
 
@@ -204,11 +196,14 @@ header > hr {
 /* 480px */
 @media screen and (max-width: 720px) {
     header {
-        max-width: calc(768px - 50px);
+        max-width: calc(480px - 0px);
         
     }
     header > div {
         height: 59px;
+    }
+    .hamburger_menu_button {
+        margin-left: 25px;
     }
     .valmari_icon_container {
         width: 70px;
@@ -216,6 +211,7 @@ header > hr {
         width: fit-content;
     }
     .header_phone {
+        margin-right: 25px;
         gap: 18px;
     }
     .header_phone > img {
@@ -229,6 +225,9 @@ header > hr {
 }
 /* 320px */
 @media screen and (max-width: 359px) {
+    header {
+        max-width: 320px;
+    }
     header > div:first-child {
         grid-template-columns: 1fr 1fr;
     }
