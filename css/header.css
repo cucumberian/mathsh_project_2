@@ -11,7 +11,7 @@ header > div:first-child {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     
-    justify-items: safe;
+    /* justify-items: safe; */
     align-items: center;
 
 }
@@ -174,9 +174,16 @@ header > hr {
     .header_phone > span {
         font-size: 20px;
     }
+    .hamburger_menu_button {
+        margin-left: 20px;
+    }
+    .header_phone {
+        margin-right: 20px;
+    }
 }
 
-@media screen and (max-width: 1000px) {
+/* 768px */
+@media screen and (max-width: 999px) {
     header {
         max-width: calc(768px - 50px);
     }
@@ -192,5 +199,47 @@ header > hr {
     }
     .header_phone > img {
         width: 23px;
+    }
+}
+/* 480px */
+@media screen and (max-width: 720px) {
+    header {
+        max-width: calc(768px - 50px);
+        
+    }
+    header > div {
+        height: 59px;
+    }
+    .valmari_icon_container {
+        width: 70px;
+        justify-self: center;
+        width: fit-content;
+    }
+    .header_phone {
+        gap: 18px;
+    }
+    .header_phone > img {
+        width: 14px;
+        object-fit: contain;
+    }
+    .header_phone > span {
+        font-size: 12px;
+        line-height: 26px;
+    }
+}
+/* 320px */
+@media screen and (max-width: 359px) {
+    header > div:first-child {
+        grid-template-columns: 1fr 1fr;
+    }
+    .hamburger_menu_button {
+        margin-left: 10px;
+    }
+    .header_phone {
+        display: none;
+    }
+    .valmari_icon_container {
+        justify-self: end;
+        margin-right: 10px;
     }
 }
