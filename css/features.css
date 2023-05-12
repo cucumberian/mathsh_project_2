@@ -80,6 +80,7 @@
     }
 }
 
+/* 768px */
 @media screen and (max-width: 1000px) {
     .features {
         max-width: calc(768px - 120px);
@@ -101,5 +102,54 @@
     .features_shadowbox > div > p:last-child {
         font-size: 13px;
         line-height: 15px;
+    }
+}
+
+/* 480px */
+@media screen and (max-width: 720px) {
+    .features {
+        max-width: 360px;
+        padding: 0;
+    }
+    .features_shadowbox {
+        height: 80px;
+        gap: 0px;
+        top: -4px;
+    }
+    .features_shadowbox > div > p:first-child {
+        font-size: 17px;
+        line-height: 25px;
+        margin: 0;
+        margin-top: 0px;
+    }
+    .features_shadowbox > div > p:last-child {
+        font-size: 8px;
+        line-height: 10px;
+    }
+}
+
+/* 320px */
+@media screen and (max-width: 359px) {
+    .features {
+        max-width: 180px;
+        padding: 0;
+    }
+    .features_shadowbox {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        height: 188px;
+        gap: 0px;
+        top: -4px;
+        padding: 10px 0;
+    }
+    .features_shadowbox > div {
+        width: 140px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: start;
+        gap: 15px;
+    }
+    .features_shadowbox > div > p:last-child {
+        text-align: left;
     }
 }
