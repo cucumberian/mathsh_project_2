@@ -64,21 +64,24 @@
     color: #424242;
 }
 
-.about_us > div {
+.about_us > a {
     justify-self: end;
-    color: #55A630;
+    color: hsl(101, 55%, 42%);
     width: fit-content;
     float: right;
 }
-.about_us > div > p {
+.about_us > a:hover {
+    color: hsl(101, 55%, 32%);
+}
+.about_us > a > p {
     display: inline;
     margin-right: 48px;
 }
-.about_us > div > p:nth-child(2) {
+.about_us > a > p:nth-child(2) {
     display: none;
 }
 
-.about_us > div > img {
+.about_us > a > img {
     display: inline;
 }
 
@@ -107,7 +110,7 @@
         line-height: 25px;
         margin-bottom: 80px;
     }
-    .about_us > div > p {
+    .about_us > a > p {
         font-size: 20px;
         line-height: 28px;
         display: inline;
@@ -115,7 +118,7 @@
     }
 }
 /*768px*/
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 999px) {
     .about_us {
         max-width: calc(768px - 120px);
         column-gap: 54px;
@@ -136,22 +139,22 @@
         line-height: 20px;
         margin-bottom: 18px;
     }
-    .about_us > div > p {
+    .about_us > a > p {
         font-size: 14px;
         line-height: 22px;
         display: inline;
         margin-right: 14px;
     }
-    .about_us > div > p:first-child {
+    .about_us > a > p:first-child {
         display: none;
     }
-    .about_us > div > p:nth-child(2) {
+    .about_us > a > p:nth-child(2) {
         display: inline;
     }
 }
 
 /*480px*/
-@media screen and (max-width: 645px) {
+@media screen and (max-width: 720px) {
     .about_us {
         max-width: calc(480px - 120px);
         grid-template-columns: 1fr;
@@ -191,13 +194,13 @@
     .about_us > p {
         margin-bottom: 40px;
     }
-    .about_us > div > p {
+    .about_us > a > p {
         margin-top: 18px;
     }
 }
 
 /*320px*/
-@media screen and (max-width: 359px) {
+@media screen and (max-width: 390px) {
     .about_us {
         max-width: 100vw;
         align-items: center;
@@ -225,10 +228,10 @@
     .about_us > picture {
         max-width: 300px;
     }
-    .about_us > div {
+    .about_us > a {
         justify-self: center;
     }
-    .about_us > div > p {
+    .about_us > a > p {
         margin-top: 23px;
     }
 }

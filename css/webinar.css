@@ -233,7 +233,7 @@
 }
 
 /* 320px */
-@media screen and (max-width: 359px) {
+@media screen and (max-width: 390px) {
     .webinar {
         max-width: 320px;
         height: 411px;

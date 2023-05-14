@@ -4,8 +4,6 @@
     max-width: 1200px;
 }
 
-.master_class button {border: none;}
-
 .master_classes > p {
     margin-top: 30px;
     margin-bottom: 75px;
@@ -92,6 +90,11 @@
     align-items: center;
 }
 
+.master_class button {border: none;}
+.master_class button:hover {
+    background-color: hsl(101, 55%, 37%);
+}
+
 @media screen and (max-width: 1240px) {
     .master_classes {
         margin-top: 140px;
@@ -108,7 +111,7 @@
     .master_class {
         max-width: 464px;
     }
-    .master_class > p {
+    .master_class > div {
         grid-template-columns: auto 136px;
     }
     .naster_class_datetime {
@@ -118,5 +121,88 @@
         font-size: 18px;
         line-height: 21px;
     }
-
+}
+/* 768px */
+@media screen and (max-width: 999px) {
+    .master_classes {
+        margin-top: 100px;
+        max-width: calc(768px - 120px);
+    }
+    .master_classes > h2 {
+        font-size: 25px;
+    }
+    .master_classes > p {
+        margin-top: 25px;
+        margin-bottom: 50px;  
+        font-size: 15px;
+        line-height: 11px;
+    }
+    .master_class > div {
+        grid-template-rows: 89px 66px;
+        grid-template-columns: auto 90px;
+    }
+    .master_class_description {
+         margin-left: 17px;
+         grid-template-rows: 34px auto auto;
+    }
+    .master_class {
+        max-width: 311px;
+    }
+    .master_class > div {
+        grid-template-columns: auto 90px;
+    }
+    .naster_class_datetime {
+        font-family: Montserrat;
+        font-size: 12px;
+        line-height: 12px;
+    }
+    .master_class_text {
+        font-size: 15px;
+        line-height: 16px;
+    }
+    .master_class_speakers {
+        font-family: Montserrat;
+        font-size: 12px;
+        line-height: 12px;
+    }
+    .master_class_cost {
+        font-size: 12px;
+        line-height: 12px;
+    }
+}
+/* 480px */
+@media screen and (max-width: 720px) {
+    .master_classes {
+        margin-top: 80px;
+        max-width: 480px;
+    }
+    .master_classes_container {
+        flex-direction: column;
+        align-items: center;
+        gap: 31px;
+    }
+    .master_classes > h2 {
+        font-size: 20px;
+        line-height: 17px;
+    }
+    .master_classes > p {
+        max-width: 250px;
+        margin: 0 auto;
+        margin-top: 15px;
+        margin-bottom: 40px;  
+        font-size: 15px;
+        line-height: 20px;
+    }
+}
+/* 320px */
+@media screen and (max-width: 359px) {
+    .master_classes > p {
+        margin-top: 20px;
+        margin-bottom: 40px;  
+        font-size: 15px;
+        line-height: 18px;
+    }
+    .master_class > div {
+        grid-template-columns: auto 87px;
+    }
 }

@@ -63,15 +63,18 @@ h2 {
     width: 15px;
     height: 15px;
     border-radius: 7.5px;
-    background-color: #B7ECB1;
+    background-color: hsl(114, 61%, 81%);
 }
 .dot_navigation > .dot.active {
-    background-color: #55A630;
+    background-color: #56a630;
+}
+.dot_navigation > .dot:not(.active):hover {
+    background-color: hsl(106, 57%, 60%);
 }
 
 button {
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 600;   
     line-height: 26px;
     letter-spacing: 0px;
     text-align: center;

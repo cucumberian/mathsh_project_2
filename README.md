@@ -34,6 +34,6 @@ GitHub Pages: https://cucumberian.github.io/mathsh_project_2/
 - в курсах меняется h2 при переходе к 768px
 - в курсах поправить цвет у левого бордера у описания курсов
 - везду max-width в адаптиве изменить с 1000px на 999px
-
+- попроавить разный размер dot-navigation в разных разделах
 отцентрировать body
 dot-navigation - подсвечивать активные элемнеты и hover
