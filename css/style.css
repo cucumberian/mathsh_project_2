@@ -82,13 +82,40 @@ button {
 
     cursor: pointer;
 }
+.navi {
+    display: grid;
+    grid-template-columns: 50px minmax(0, 1200px) 50px;   
+}
+button.navi {
+    background: none;
+    border: none;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+button.navi:hover {
+    box-shadow: 0 2px 20px 0 hsla(0, 0%, 26%, 0.15);
+}
+button.navi.left{ 
+    background-image: url('../img/before_arrow1.svg');
+}
+button.navi.right{
+    background-image: url('../img/after_arrow1.svg');
+}
 
 @media screen and (max-width: 1240px) {
     main > section  {
         margin-top: 140px;
     }
+    .navi {
+        display: grid;
+        grid-template-columns: minmax(0, calc(1000px - 40px));   
+    }
+    button.navi {
+        display: none;
+    }
 }
-@media screen and (max-width: 1000px) {
+/* 768px */
+@media screen and (max-width: 999px) {
     main > section  {
         margin-top: 100px;
     }
@@ -101,18 +128,37 @@ button {
         width: 7.5px;
         height: 7.5px;
     }
+    .navi {
+        display: grid;
+        grid-template-columns: 40px minmax(0, calc(768px - 120px)) 40px;   
+    }
+    button.navi {
+        display: block;
+    }
+    button.navi.left{ 
+        background-image: url('../img/before_arrow1_768.svg');
+    }
+    button.navi.right{
+        background-image: url('../img/after_arrow1_768.svg');
+    }
 }
-    @media screen and (max-width: 645px) {
-        main > section  {
-            margin-top: 80px;
-        }
-        .dot_navigation {
-            gap: 6px;
-            margin-top: 39px;
-        }
-        .dot_navigation > .dot {
-            cursor: pointer;
-            width: 5px;
-            height: 5px;
-        }
+@media screen and (max-width: 720px) {
+    main > section  {
+        margin-top: 80px;
+    }
+    .dot_navigation {
+        gap: 6px;
+        margin-top: 39px;
+    }
+    .dot_navigation > .dot {
+        cursor: pointer;
+        width: 5px;
+        height: 5px;
+    }
+    .navi {
+        grid-template-columns: minmax(0, 480px);   
+    }
+    button.navi {
+        display: none;
+    }
 }

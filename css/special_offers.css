@@ -1,10 +1,13 @@
 .special_offers > h2 {
     margin-bottom: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .special_offers_container {
     display: flex;
-    gap: 30px;
+    justify-content: space-between;
 }
 
 .special_offers a {
@@ -20,10 +23,11 @@
 .special_offers img {
     width: 100%;
     height: 100%;
-    object-fit: contain;
+    object-fit: fill;
 }
 
-@media screen and (max-width: 1230px) {
+/* 1000px */
+@media screen and (max-width: 1240px) {
     .special_offers > h2 {
         font-size: 30px;
         margin-bottom: 50px;
@@ -31,6 +35,9 @@
     .special_offers a {
         width: 303px;
         height: 303px;
+    }
+    .special_offers_container {
+        max-width: calc(1000px - 40px);
     }
     .dot_navigation {
         margin-top: 50px;

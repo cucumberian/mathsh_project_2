@@ -27,26 +27,6 @@
     box-shadow: 0 2px 20px 0 hsla(0, 0%, 26%, 0.15);
 }
 
-.master_classes .navi {
-    display: grid;
-    grid-template-columns: 50px minmax(0, 1200px) 50px;   
-}
-button.navi {
-    background: none;
-    border: none;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-button.navi:hover {
-    box-shadow: 0 2px 20px 0 hsla(0, 0%, 26%, 0.15);
-}
-button.navi.left{ 
-    background-image: url('../img/before_arrow1.svg');
-}
-button.navi.right{
-    background-image: url('../img/after_arrow1.svg');
-}
-
 .master_class > picture {
     z-index: 2;
     display: flex;
@@ -133,13 +113,7 @@ button.navi.right{
         margin-bottom: 50px;  
         font-size: 20px;
     }
-    .master_classes .navi {
-        display: grid;
-        grid-template-columns: 0 minmax(0, calc(1000px - 40px)) 0;   
-    }
-    button.navi {
-        display: none;
-    }
+    
     .master_class {
         max-width: 464px;
     }
@@ -169,16 +143,7 @@ button.navi.right{
         font-size: 15px;
         line-height: 11px;
     }
-    .master_classes .navi {
-        display: grid;
-        grid-template-columns: 40px minmax(0, calc(768px - 120px)) 40px;   
-    }
-    button.navi.left{ 
-        background-image: url('../img/before_arrow1_768.svg');
-    }
-    button.navi.right{
-        background-image: url('../img/after_arrow1_768.svg');
-    }
+    
     .master_class > div {
         grid-template-rows: 89px 66px;
         grid-template-columns: auto 90px;
@@ -236,7 +201,7 @@ button.navi.right{
         line-height: 20px;
     }
     .master_classes .navi {
-        grid-template-columns: 0 minmax(0, 480px) 0;   
+        grid-template-columns: minmax(0, 480px);   
     }
     button.navi {
         display: none;
