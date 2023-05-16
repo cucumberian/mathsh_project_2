@@ -68,11 +68,12 @@
         margin-bottom: 40px;
     }
     .special_offers_container {
-        width: 100%;
+        width: fit-content;
         display: grid;
         grid-template-columns: auto 195px auto;
         gap: 25px;
-        margin-left: -78px;
+        margin-left: 50%;
+        transform: translateX(-50%); 
     }
     .special_offers a {
         width: 195px;
@@ -99,7 +100,5 @@
     }
     .special_offers_container {
         gap: 20px;
-        align-items: center;
-        margin-left: -154px;
     }
 }

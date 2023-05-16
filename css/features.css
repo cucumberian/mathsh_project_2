@@ -81,7 +81,7 @@
 }
 
 /* 768px */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 999px) {
     .features {
         max-width: calc(768px - 120px);
         padding: 0;
@@ -139,7 +139,7 @@
         grid-template-rows: repeat(4, 1fr);
         height: 188px;
         gap: 0px;
-        top: -4px;
+        top: -47px;
         padding: 10px 0;
     }
     .features_shadowbox > div {

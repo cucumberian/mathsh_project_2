@@ -1,6 +1,11 @@
 .courses {
-    width: 100%;
     margin-top: 0;
+    max-width: 1440px;;
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .courses_background {
@@ -10,12 +15,13 @@
     display: flex;
     justify-content: flex-end;
     opacity: 0.5;
+    z-index: -3;
 }
 
 .courses_background img {
     width: 1065px;
     height: 790px;
-    z-index: -1;
+    z-index: -3;
 }
 
 .courses h2 {
@@ -28,14 +34,12 @@
 
 .courses_container {
     max-width: 1200px;
-    width: 100vw;
+    width: 100%;
     
     margin: 0 auto;
 
     display: flex;
     justify-content: space-between;
-    gap: 10px;
-    flex-wrap: wrap;
 }
 
 .courses .course {
@@ -152,6 +156,10 @@ p.color3 {
     color: hsla(0, 0%, 26%, 0.8);
 }
 
+.course button:hover {
+    background-blend-mode: darken;
+}
+
 .course > .action_buttons {
     align-self: end;
 }
@@ -164,25 +172,26 @@ p.color3 {
     cursor: pointer;
 }
 
-
-
-.background_color1 {background-color: #5351C4;}
+.background_color1 {background-color: hsl(241, 49%, 54%);}
+.action_buttons .background_color1:hover {background-color: hsl(241, 49%, 40%);}
 .transparent_background_color1 {background-color: hsla(241, 49%, 54%, 0.1);}
 .color1 {color: #5351C4;}
+.action_buttons .color1:hover {color: hsl(241, 49%, 40%);}
 
-.background_color2 {background-color: #55A630;}
+.background_color2 {background-color: hsl(101, 55%, 42%);}
+.action_buttons .background_color2:hover {background-color: hsl(101, 55%, 30%);}
 .transparent_background_color2 {background-color: hsla(101, 55%, 42%, 0.1);}
 .color2 {color: #55A630;}
+.action_buttons .color2:hover {color: hsl(101, 55%, 30%);}
 
-.background_color3 {background-color: #00A896;}
+.background_color3 {background-color: hsl(174, 100%, 33%);}
+.action_buttons .background_color3:hover {background-color: hsl(174, 100%, 23%);}
 .transparent_background_color3 {background-color: hsla(174, 100%, 33%, 0.1);}
 .color3 {color: #00A896;}
+.action_buttons .color3:hover {color: hsl(174, 100%, 23%);}
 
+/* 1200px */
 @media screen and (max-width: 1240px) {
-    .courses {
-        
-        margin: 0 auto;
-    }
     .courses h2 {
         font-size: 30px;
         margin-top: calc(140px + 167px - 15px);
@@ -192,16 +201,8 @@ p.color3 {
         opacity: 0.8;
         max-width: 1000px;
     }
-    .courses_background img {
-        width: 100%;
-        object-fit: contain;
-    }
-
     .courses_container {
-        max-width: 1000px;
-        padding-left: 20px;
-        padding-right: 20px;
-        justify-content: space-evenly;
+        max-width: calc(1000px - 40px);
     }
 
     .courses .course {
@@ -246,7 +247,6 @@ p.color3 {
         width: 100%;
         font-size: 16px;
         font-weight: 600;
-        line-height: 20px;
     }
     .course_date {
         margin-top: 19px;
@@ -268,8 +268,8 @@ p.color3 {
         line-height: 20px;
     }
 }
-
-@media screen and (max-width: 1000px) {
+/* 768px */
+@media screen and (max-width: 999px) {
     .courses {
         max-width: 768px;
     }
@@ -300,14 +300,13 @@ p.color3 {
     .courses_container {
         max-width: calc(768px - 120px);
         padding: 0;
-        justify-content: space-evenly;
     }
     .courses .course {
-        width: 196px;
+        width: 200px;
         height: 310px;
     }
     .courses .course > div:first-child {
-        padding: 9px 8px 0 0px;
+        padding: 9px 8px 0 10px;
     }
     .course_header {
         font-size: 10px;
@@ -382,5 +381,53 @@ p.color3 {
 
         font-size: 11px;
         line-height: 26px;
+    }
+}
+
+/* 480px */
+@media screen and (max-width: 720px) {
+    .courses {
+        max-width: 480px;
+        width: 100vw;
+        overflow: hidden;
+    }
+    .courses_background {
+        max-width: 480px;
+        opacity: 1;
+    }
+    .courses_background img {
+        height: 370px;
+        top: -110px;
+    }
+    .courses h2 {
+        font-size: 20px;
+        line-height: 28px;
+        margin-top: calc(80px + 80px - 4px);
+        margin-bottom: 25px;
+    }
+    .courses_container {
+        max-width: fit-content;
+        width: fit-content;
+        gap: 20px;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+    .courses .course:nth-child(odd) {
+        background-color: hsl(0, 0%, 90%);
+    }
+    .courses .course:nth-child(odd) > * {
+        opacity: 0.9;
+    }
+}
+
+/* 320px */
+@media screen and (max-width: 390px) {
+    .courses_background img {display: none;}
+    .courses h2 {
+        margin-top: calc(80px + 188px - 47px);
+        margin-bottom: 25px;
+    }
+    .courses {
+        max-width: 320px;
     }
 }

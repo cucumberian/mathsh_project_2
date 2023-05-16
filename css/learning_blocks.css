@@ -121,6 +121,7 @@ a.learning_block:hover {
     bottom: 40px;
 }
 .learning_blocks_background {
+    display: none;
     height: 0;
     overflow: visible;
 }
@@ -197,7 +198,7 @@ a.learning_block:hover {
 }
 
 /* 768px */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 999px) {
     .learning_blocks {
         max-width: calc(768px - 120px);
         margin-top: 104px;
@@ -245,6 +246,8 @@ a.learning_block:hover {
 /* 480px */
 @media screen and (max-width: 720px) {
     .learning_blocks {
+        width: 100%;
+        max-width: 480px;
         margin-top: 81px;
     }
     .learning_blocks > h2 {
@@ -289,6 +292,12 @@ a.learning_block:hover {
     }
     .learning_blocks > div > .el5 {
         background-image: url('../img/learning_blocks/el5_480.jpg');
+    }
+    .learning_blocks_background {
+        display: none;
+    }
+    .learning_blocks_background > img {
+        display: none;
     }
 }
 

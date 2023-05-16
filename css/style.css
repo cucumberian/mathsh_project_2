@@ -87,12 +87,14 @@ button {
     grid-template-columns: 50px minmax(0, 1200px) 50px;   
 }
 button.navi {
+    z-index: 0;
     background: none;
     border: none;
     background-repeat: no-repeat;
     background-position: center center;
 }
 button.navi:hover {
+    background-color: white;
     box-shadow: 0 2px 20px 0 hsla(0, 0%, 26%, 0.15);
 }
 button.navi.left{ 
