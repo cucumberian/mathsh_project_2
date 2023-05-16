@@ -53,7 +53,7 @@ footer > .map {
     gap: 25px;
     flex-direction: column;
 }
-.footer_content > address {
+.footer_content > address > a:hover {
     text-shadow: 0 2px 5px black;
 }
 .footer_content > address > a {
