@@ -200,12 +200,7 @@
         font-size: 15px;
         line-height: 20px;
     }
-    .master_classes .navi {
-        grid-template-columns: minmax(0, 480px);   
-    }
-    button.navi {
-        display: none;
-    }
+    
 }
 /* 320px */
 @media screen and (max-width: 359px) {
