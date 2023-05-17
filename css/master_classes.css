@@ -203,9 +203,9 @@
     
 }
 /* 320px */
-@media screen and (max-width: 359px) {
+@media screen and (max-width: 390px) {
     .master_classes > p {
-        margin-top: 20px;
+        margin-top: 23px;
         margin-bottom: 40px;  
         font-size: 15px;
         line-height: 18px;

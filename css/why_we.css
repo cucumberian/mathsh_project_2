@@ -261,18 +261,21 @@
         height: 100%;
         padding: 0 20px;
     }
-    .why_container > div:nth-child(1) > .bg_number {
-        top: 15px;
-        left: 0;
+    .why_content > h3 {
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 23px;
     }
-    
+    .why_container > div:nth-child(1) > div.bg_number {
+        top: 34px;
+        left: 0;
+    }    
     .why_container > div:nth-child(2) > .bg_number {
-        top: 27px;
+        top: 34px;
         left: 0;
     }
-    
     .why_container > div:nth-child(3) > .bg_number {
-        top: 25px;
+        top: 34px;
         left: 0;
     }
 }

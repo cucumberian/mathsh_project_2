@@ -228,14 +228,16 @@
         font-size: 20px;
         line-height: 24px;
         text-align: center;
-
-        margin-bottom: 40px;
+        margin: 0;
+        margin-top: 21px;
+        margin-bottom: 30px;
     }
     .about_us > h3 > span:after {
         content: '';
     }
     .about_us > p {
         max-width: 300px;
+        text-align: center;
     }
     .about_us > picture {
         max-width: 300px;

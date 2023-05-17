@@ -339,7 +339,7 @@ footer button > a, footer button > a:hover {
 }
 
 /* 320px */
-@media screen and (max-width: 359px) {
+@media screen and (max-width: 390px) {
     footer {
         max-width: 320px;
         margin-top: 80px;
@@ -370,13 +370,15 @@ footer button > a, footer button > a:hover {
         font-size: 16px;
     }
     .footer_content > address > a:last-child{
-        font-size: 16px;
+        font-size: 15px;
+        letter-spacing: 0.6px;
     }
     .footer_nav {
-        width: calc(320px - 104px);
+        width: calc(320px - 100px);
         grid-template-columns: min-content min-content;
-        margin-bottom: 27px;
-        gap: 8px 41px;
+        margin-top: 22px;
+        margin-bottom: 15px;
+        gap: 8px 61px;
     }
     .footer_nav a {
         font-size: 12px;
