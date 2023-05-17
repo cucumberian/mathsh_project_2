@@ -64,6 +64,7 @@ form > input:first-child {
 }
 
 form > button {
+    font-family: 'Montserrat';
     font-size: 23px;
     font-weight: 600;
     line-height: 16px;
