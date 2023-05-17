@@ -268,6 +268,7 @@ p.color3 {
     
     .course_spaces {
         margin-top: 48px;
+        margin-left: 10px;
         margin-bottom: 0px;
         font-size: 15px;
         line-height: 20px;
@@ -412,12 +413,12 @@ p.color3 {
         font-size: 20px;
         line-height: 28px;
         margin-top: calc(80px + 80px - 4px);
-        margin-bottom: 25px;
+        margin-bottom: 37px;
     }
     .courses_container {
         max-width: fit-content;
         width: fit-content;
-        gap: 20px;
+        gap: 23px;
         margin-left: 50%;
         transform: translateX(-50%);
     }

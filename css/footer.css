@@ -263,7 +263,7 @@ footer button > a, footer button > a:hover {
         max-width: 480px;
         margin-top: 80px;
         grid-template-columns: 1fr;
-        grid-template-rows: 532px 272px 35px;
+        grid-template-rows: 565px 272px 35px;
         grid-template-areas: 
         "content"
         "map"
@@ -279,10 +279,12 @@ footer button > a, footer button > a:hover {
     }
     .footer_content > img {
         margin-top: 26px;
-        margin-bottom: 36px;
+        margin-bottom: 40px;
+        width: 55px;
+        height: 55px;
     }
     .footer_content > address {
-        gap: 8px;
+        gap: 14px;
         padding: 0;
         align-items: center;
     }
@@ -295,11 +297,11 @@ footer button > a, footer button > a:hover {
         line-height: 28px;
     }
     .footer_nav {
-        width: 280px;
+        width: 273px;
         grid-template-columns: min-content min-content;
-        margin-top: 26px;
+        margin-top: 59px;
         margin-bottom: 50px;
-        gap: 20px 81px;
+        gap: 24px 76px;
     }
     .footer_nav a {
         font-size: 15px;

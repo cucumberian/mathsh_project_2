@@ -200,13 +200,6 @@
         padding-left: 60px;
         width: 100%;
     }
-    .webinar h1 {
-        max-width: 200px;
-        margin-top: 2px;
-        margin-bottom: 15px;
-        font-size: 24px;
-        line-height: 25px;
-    }
     .webinar > div > strong {
         display: block;
         padding-top: 20px;
@@ -214,12 +207,19 @@
         font-size: 8px;
         line-height: 26px;
     }
+    .webinar h1 {
+        max-width: 200px;
+        margin-top: -3px;
+        margin-bottom: 12px;
+        font-size: 24px;
+        line-height: 25px;
+    }
     .webinar > div > p {
         font-size: 8px;
         line-height: 10px;
     
         width: 170px;
-        margin: 15px 0 13px 0;
+        margin-bottom: 15px;
     }
     .webinar_button_container {
         gap: 8px;
@@ -232,8 +232,8 @@
         line-height: 6px;
     }
     .webinar_background_image > picture {
-        top: -168px;
-        right: 20px;
+        top: -160px;
+        right: 26px;
     }
 }
 

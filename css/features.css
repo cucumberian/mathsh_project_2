@@ -113,6 +113,7 @@
     }
     .features_shadowbox {
         height: 80px;
+        padding: 0 10px 0 14px;
         gap: 0px;
         top: -4px;
     }

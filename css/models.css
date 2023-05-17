@@ -127,17 +127,22 @@ p.models_text_v2 {
         max-width: 360px;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
+        margin-top: 80px;
     }
     .models > div {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
+        width: 100%;
     }
     .models h2 {
-        font-size: 20px;
+        margin: 0 auto;
+        margin-bottom: 40px;
+        font-size: 19px;
+        letter-spacing: 0.4px;
         line-height: 23px;
         text-align: center;
-        margin-bottom: 40px;
     }
     .models p {
         width: 100%;

@@ -170,6 +170,7 @@
         "p"
         "pic"
         "link";
+        margin-top: 80px;
     }
     .about_us > h2 {
         font-size: 15px;
@@ -184,7 +185,7 @@
     }
     .about_us > h3 {
         display: inline-block;
-        font-size: 25px;
+        font-size: 20px;
         line-height: 26.75px;
 
         margin-top: 15px;
@@ -202,6 +203,9 @@
     }
     .about_us > a > p {
         margin-top: 18px;
+    }
+    .about_us > p > span:nth-child(2){
+        display: none;
     }
 }
 
