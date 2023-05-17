@@ -215,7 +215,7 @@ p.color3 {
         height: 509px;
     }
     .courses .course > div:first-child {
-        padding: 10px 10px 0 10px;
+        padding: 15px 10px 0 10px;
     }
 
     .course_header {
@@ -228,7 +228,7 @@ p.color3 {
         width: 36px;
     }
     .course_title {
-        margin-top: 6px;
+        margin-top: 4px;
         margin-bottom: 25px;
         font-size: 25px;
         line-height: 25px;
@@ -267,11 +267,15 @@ p.color3 {
     }
     
     .course_spaces {
-        margin-top: 33px;
-        margin-bottom: 12px;
+        margin-top: 48px;
+        margin-bottom: 0px;
         font-size: 15px;
         line-height: 20px;
     }
+    .course > .action_buttons > button {
+        height: 49px;
+    }
+
 }
 /* 768px */
 @media screen and (max-width: 999px) {

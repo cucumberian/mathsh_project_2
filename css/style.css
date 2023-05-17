@@ -105,6 +105,9 @@ button.navi.right{
 }
 
 @media screen and (max-width: 1240px) {
+    h2 {
+        font-size: 30px;
+    }
     main > section  {
         margin-top: 140px;
     }
@@ -114,6 +117,9 @@ button.navi.right{
     }
     button.navi {
         display: none;
+    }
+    .dot_navigation {
+        margin-top: 45px;
     }
 }
 /* 768px */

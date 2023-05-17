@@ -75,12 +75,13 @@ p.models_text_v2 {
 @media screen and (max-width: 1240px) {
     .models {
         max-width: calc(1000px - 40px);
+        margin-top: 140px;
     }
     .models h2 {
         font-size: 24px;
         line-height: 28px;
-        margin-top: 15px;
-        margin-bottom: 40px;
+        margin-top: 19px;
+        margin-bottom: 47px;
     }
     .models p {
         font-size: 20px;
@@ -90,7 +91,7 @@ p.models_text_v2 {
         display: flex;
     }
     .models button {
-        margin-top: 64px;
+        margin-top: 53px;
         max-width: 298px;
         height: 55px; 
         font-size: 20px;

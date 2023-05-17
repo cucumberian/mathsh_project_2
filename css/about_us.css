@@ -90,10 +90,12 @@
     .about_us {
         max-width: calc(1000px - 40px);
         column-gap: 110px;
+        margin-top: 140px;
     }
 
     .about_us > h2 {
         font-size: 20px;
+        color: #424242;
     }
 
     .about_us > h3 {
@@ -102,20 +104,21 @@
         max-width: 459px;
         font-size: 24px;
         line-height: 26px;
-        margin-top: 20px;
-        margin-bottom: 40px;
+        margin-top: 13px;
+        margin-bottom: 41px;
     }
 
     .about_us > p {
         font-size: 20px;
         line-height: 25px;
-        margin-bottom: 80px;
+        margin-bottom: 98px;
+        gap: 0.9em;
     }
     .about_us > a > p {
         font-size: 20px;
         line-height: 28px;
         display: inline;
-        margin-right: 42px;
+        margin-right: 33px;
     }
 }
 /*768px*/
