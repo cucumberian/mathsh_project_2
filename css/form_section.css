@@ -106,8 +106,8 @@ form > button:hover {
         height: 359px;
     }
     .form_section > h2 {
-        margin-top: 30px;
-        margin-bottom: 12px;
+        margin-top: 33px;
+        margin-bottom: 16px;
         font-size: 25px;
     }
     .form_section > p {
@@ -124,8 +124,11 @@ form > button:hover {
         height: 45px;
         padding-left: 25px;        
     }
+    form > input:first-child {
+        margin-bottom: 11px;
+    }
     form > button {
-        font-size: 14px;
+        font-size: 15px;
         line-height: 16px;
         margin-top: 23px;
         height: 53px;

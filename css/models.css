@@ -102,10 +102,12 @@ p.models_text_v2 {
 @media screen and (max-width: 999px) {
     .models {
         max-width: calc(768px - 120px);
+        margin-top: 100px;
     }
     .models h2 {
         margin: 0;
         margin-bottom: 35px;
+        letter-spacing: 0.6px;
     }
     .models p {
         font-size: 15px;
@@ -113,7 +115,7 @@ p.models_text_v2 {
     }
     .models button {
         max-width: 201px;
-        margin-top: 41px;
+        margin-top: 43px;
         height: 40px; 
         font-size: 15px;
     }

@@ -174,7 +174,7 @@ footer button > a, footer button > a:hover {
         width: 77px;
         height: 77px;
         margin-top: 31px;
-        margin-bottom: 33px;
+        margin-bottom: 30px;
     }
 
     .footer_content > address {
@@ -238,7 +238,7 @@ footer button > a, footer button > a:hover {
     .footer_nav {
         grid-template-columns: auto auto;
         margin-top: 26px;
-        gap: 15px 47px;
+        gap: 18px 59px;
     }
     .footer_social_icons {
         gap: 24px;
