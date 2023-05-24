@@ -55,6 +55,7 @@ footer > .map {
 }
 .footer_content > address > a:hover {
     text-shadow: 0 2px 5px black;
+    transform: scale(1.05);
 }
 .footer_content > address > a {
     color: white;
@@ -81,7 +82,7 @@ footer > .map {
     margin-bottom: 85px;
 
     display: grid;
-    grid-template-columns: 200px 150px;
+    grid-template-columns: 200px 150px; 
     gap: 25px 47px;
     grid-template-rows: auto;
     grid-auto-flow: row;
@@ -116,6 +117,9 @@ footer > .map {
 .footer_social_icons > a {
     width: 39px;
     height: 39px;
+}
+.footer_social_icons > a:hover  {
+    transform: scale(1.2);
 }
 
 .footer_social_icons > a > img {
