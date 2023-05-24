@@ -29,11 +29,11 @@ header > div a {
     text-align: left;
 }
 
-.valmari_icon_container {
+.valmari_icon {
     justify-self: center;
     width: fit-content;
 }
-.valmari_icon_container img {
+.valmari_icon img {
     width: 100%;
     height: 100%;
     object-fit: contain;
@@ -130,7 +130,7 @@ header > hr {
         display: none;
     }
 
-    .valmari_icon_container {
+    .valmari_icon {
         display: flex;
         width: 100%;
     }
@@ -194,7 +194,7 @@ header > hr {
     .header_phone > span {
         font-size: 19px;
     }
-    .valmari_icon_container {
+    .valmari_icon {
         width: 70px;
     }
     .header_phone > img {
@@ -213,7 +213,7 @@ header > hr {
     .hamburger_menu_button {
         margin-left: 25px;
     }
-    .valmari_icon_container {
+    .valmari_icon {
         width: 70px;
         justify-self: center;
         width: fit-content;
@@ -245,7 +245,7 @@ header > hr {
     .header_phone {
         display: none;
     }
-    .valmari_icon_container {
+    .valmari_icon {
         justify-self: end;
         margin-right: 10px;
     }
