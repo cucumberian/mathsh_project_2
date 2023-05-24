@@ -91,7 +91,9 @@ header > div a {
     margin: 0 69px 0 78px;
     cursor: pointer;
 }
-
+.header__social_icons > a:hover {
+    transform: scale(1.2);
+}
 .lang_container {
     display: none;
     align-items: center;
